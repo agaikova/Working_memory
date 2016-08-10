@@ -1,7 +1,9 @@
 # Working_memory
 This repository contains a model of a working memory task detailed here: jn.physiology.org/content/91/3/1424
 
-One of the neurobiological properties that the reaserchers who worked on that paper measured is the activity of so-called “persistent memory pro/antisaccades”. So, essetially, after putting something into working memory and then clearing it, they were able to measure the following effect:  ![alt tag](https://github.com/agaikova/Working_memory/blob/master/what_are_axises.gif)
+One of the neurobiological properties that the reaserchers who worked on that paper measured is the activity of so-called “persistent memory pro/antisaccades”. So, essetially, after putting something into working memory and then clearing it, they were able to measure the following effect:  
+
+![alt tag](https://github.com/agaikova/Working_memory/blob/master/what_are_axises.gif)
 
 Since the axies are not very clear, I used graphing softawre to estimate the values of the spiking pattern at various points in the task. At 0.5 s, the spike value is ~ 28hz. At 1.75s, the spiking value is ~34 hz. The peak value, which is reached ~0.8s into the simulation, is around 54 hz. This data is used in the objective function of every hyperopt program written for this repository. 
 
